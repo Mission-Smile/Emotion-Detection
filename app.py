@@ -13,9 +13,9 @@ class HelloWorld(Resource):
 
 api.add_resource(HelloWorld, "/helloWorld")
 
-recom_sad = ["Go and take a break!", "recommendation sad 2", "recommendation sad 3"]
+recom_sad = ["Go and take a break!", "Watch this video on Youtube: https://youtu.be/0Bmhjf0rKe8", "Watch this video on Youtube: https://youtu.be/pNtNxMt_b7I"]
 recom_happy = ["Write down the reason", "recommendation happy 2", "recommendation happy 3"]
-recom_angry = ["Watch this video: XYZ", "recommendation angry 2", "recommendation angry 3"]
+recom_angry = ["Watch this video: https://youtu.be/hbH53mfC24c", "Let's do this workout: https://www.tk.de/techniker/magazin/sport/spezial/gesunder-ruecken/trainingsflaeche-buero/8-minuten-workout-fuers-buero-2009264", "recommendation angry 3"]
 recom_confused= []
 recom_disgusted= []
 recom_suprised= []
