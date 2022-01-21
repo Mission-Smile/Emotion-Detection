@@ -27,7 +27,7 @@ recom_angry = ["Watch this video: https://youtu.be/hbH53mfC24c",
 recom_neutral = ["Here is some music for your concentration https://open.spotify.com/playlist/37i9dQZF1DWSsWHHnufwMM?si=9adc0496125f45cd"]
 recom_fear = ["Take a break and talk with a friend about your fear",
                 "Take a break and find a game to distract you on this website: http://www.xn--langeweile-im-bro-h3b.de/buerospiele/"]
-recom_suprise= ["Write down the reason"]
+recom_surprise= ["Write down the reason"]
 recom_disgust= ["Some exercise will be good for you: https://www.youtube.com/watch?v=sk0gL4WSmPU",
                 "Listen to some music https://open.spotify.com/playlist/5wPDEfZJzo7lpRYMWDBIyB?si=11c477dd36514bb4"]
 
@@ -44,10 +44,8 @@ class Emotion(Resource):
             return {"answer": random.choice(recom_neutral)}
         if emotion == "fear":
             return {"answer": random.choice(recom_fear)}
-        if emotion == "confused":
-            return {"answer": random.choice(recom_confused)}
-        if emotion == "suprise":
-            return {"answer": random.choice(recom_suprise)}
+        if emotion == "surprise":
+            return {"answer": random.choice(recom_surprise)}
         if emotion == "disgust":
             return {"answer": random.choice(recom_disgust)}
 
