@@ -19,8 +19,7 @@ recom_sad = ["Go and take a break!",
             "Listen to some music: https://open.spotify.com/playlist/2RafGqDeCijhZjctf8brvD?si=92bd36e8f04b4e89",
             "Eat a snack"]
 recom_happy = ["Write down the reason", 
-                "recommendation happy 2", 
-                "recommendation happy 3"]
+                "Some music for you: https://open.spotify.com/playlist/2RafGqDeCijhZjctf8brvD?si=92bd36e8f04b4e89"]
 recom_angry = ["Watch this video: https://youtu.be/hbH53mfC24c", 
                 "Let's do this workout: https://www.tk.de/techniker/magazin/sport/spezial/gesunder-ruecken/trainingsflaeche-buero/8-minuten-workout-fuers-buero-2009264", 
                 "Calm down and do some exercise https://youtu.be/bnoZko9hfzo 3"]
