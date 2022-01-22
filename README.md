@@ -1,4 +1,4 @@
-# API for emotion detection
+# API for recommendation
 
 The application is deployed on heroku under:
 <br>https://smile-emotion-recognition.herokuapp.com/
